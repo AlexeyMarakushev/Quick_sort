@@ -62,7 +62,7 @@ Item& Pair::operator=(const Item &A){
 }
 
 
-void QuickSort(Item** items, size_t count) {
+void Item::QuickSort(Item** items, size_t count) {
     if (count <= 1) {
         return;
     }
