@@ -2,8 +2,7 @@
 #define SORT_H
 #include <cstddef>
 class Item {
-	class Real;
-	class Pair;
+
 public:
 	virtual bool operator<(const Item &other) const = 0;
 	virtual Item& operator=(const Item &other) = 0;
